@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Simple Website</title>
+</head>
+<body>
+	<h1>Welcome to my website!</h1>
+	<p>Here's some text that you can edit:</p>
+	<textarea id="editable-text" rows="10" cols="50">
+		Insert your text here.
+	</textarea>
+	<button onclick="saveText()">Save Text</button>
+
+	<script>
+		function saveText() {
+			var text = document.getElementById("editable-text").value;
+			// code to save the text goes here
+			alert("Text saved successfully!");
+		}
+	</script>
+</body>
+</html>

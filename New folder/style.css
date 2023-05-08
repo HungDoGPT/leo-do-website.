@@ -1,0 +1,18 @@
+/* Add your CSS styles here */
+body {
+	background-color: #f0f0f0;
+}
+
+h1 {
+	color: blue;
+}
+
+p {
+	font-weight: bold;
+}
+
+textarea {
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin-bottom: 10px;
+}
